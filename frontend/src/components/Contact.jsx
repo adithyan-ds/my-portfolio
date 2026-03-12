@@ -67,21 +67,21 @@ const Contact = () => {
             </p>
 
             <div className="flex flex-col gap-6 pt-4">
-              <a href="mailto:your.email@example.com" className="flex items-center gap-4 text-gray-300 hover:text-emerald-400 transition-colors group">
+              <a href="mailto:adithyands060@gmail.com" className="flex items-center gap-4 text-gray-300 hover:text-emerald-400 transition-colors group">
                 <div className="p-3 bg-[#0d1117] border border-gray-800 rounded-xl group-hover:border-emerald-500/50 transition-colors">
                   <FiMail className="text-xl" />
                 </div>
-                <span className="font-medium text-lg">your.email@example.com</span>
+                <span className="font-medium text-lg">adithyands060@gmail.com</span>
               </a>
 
-              <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 text-gray-300 hover:text-emerald-400 transition-colors group">
+              <a href="https://github.com/adithyan-ds" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 text-gray-300 hover:text-emerald-400 transition-colors group">
                 <div className="p-3 bg-[#0d1117] border border-gray-800 rounded-xl group-hover:border-emerald-500/50 transition-colors">
                   <FiGithub className="text-xl" />
                 </div>
                 <span className="font-medium text-lg">GitHub Profile</span>
               </a>
 
-              <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 text-gray-300 hover:text-emerald-400 transition-colors group">
+              <a href="https://www.linkedin.com/in/adithyan-ds-49719636a/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 text-gray-300 hover:text-emerald-400 transition-colors group">
                 <div className="p-3 bg-[#0d1117] border border-gray-800 rounded-xl group-hover:border-emerald-500/50 transition-colors">
                   <FiLinkedin className="text-xl" />
                 </div>
@@ -102,7 +102,7 @@ const Contact = () => {
                   name="name" // Changed from from_name to name
                   id="user_name" 
                   required
-                  placeholder="John Doe"
+                  placeholder="Name"
                   className="px-4 py-3 bg-[#161b22] border border-gray-800 rounded-xl text-white placeholder-gray-600 focus:outline-none focus:ring-2 focus:ring-emerald-500/50 focus:border-emerald-500 transition-all"
                 />
               </div>
@@ -114,7 +114,7 @@ const Contact = () => {
                   name="email" // Changed from reply_to to email
                   id="user_email" 
                   required
-                  placeholder="john@example.com"
+                  placeholder="****@email.com"
                   className="px-4 py-3 bg-[#161b22] border border-gray-800 rounded-xl text-white placeholder-gray-600 focus:outline-none focus:ring-2 focus:ring-emerald-500/50 focus:border-emerald-500 transition-all"
                 />
               </div>
