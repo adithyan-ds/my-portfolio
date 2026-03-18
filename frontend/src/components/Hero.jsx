@@ -41,14 +41,15 @@ const Hero = () => {
           
          <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
             {/* Updated Download Resume Button */}
-            <a 
-              href="/resume.pdf" 
-              download="Adithyan_DS_Resume.pdf" 
-              className="flex items-center justify-center gap-2 px-8 py-3.5 bg-gradient-to-r from-emerald-500 to-cyan-600 text-white font-bold rounded-lg hover:scale-105 transition-transform shadow-lg shadow-emerald-500/20"
-            >
-              Download Resume
-              <FiDownload className="text-xl" />
-            </a>
+           {/* Notice the href now exactly matches the file name in your public folder */}
+<a 
+  href="/Adithyan_DS_Resume.pdf" 
+  download="Adithyan_DS_Resume.pdf" 
+  className="flex items-center justify-center gap-2 px-8 py-3.5 bg-gradient-to-r from-emerald-500 to-cyan-600 text-white font-bold rounded-lg hover:scale-105 transition-transform shadow-lg shadow-emerald-500/20"
+>
+  Download Resume
+  <FiDownload className="text-xl" />
+</a>
             
             <a href="https://github.com" target="_blank" rel="noreferrer" className="flex items-center justify-center gap-2 px-8 py-3.5 bg-[#0d1117] border border-gray-800 text-gray-300 font-medium rounded-lg hover:text-white hover:border-gray-600 transition-colors">
               <FiGithub className="text-xl" />
